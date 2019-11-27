@@ -1,0 +1,9 @@
+<div class="this">
+  <div #track class="this_drag animate">
+    <div #item  class="this_item"
+      (mousedown)="dragStart($event)" (mouseup)="dragEnd($event)" (mousemove)="drag($event)"></div>
+    <p #end class="this_text this_text--end titan96_text--regular animate">Comfirmed</p>
+    <p #after class="this_text this_text--after titan96_text--regular animate">Comfirming...</p>
+    <p #before class="this_text this_text--before titan96_text--regular animate">Slide to Confirm</p>
+  </div>
+</div>
